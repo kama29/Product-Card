@@ -1,0 +1,32 @@
+.parentbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box img{
+    Height:200px;
+    Width:300px;
+    border: 2px solid black;
+}
+.box{
+    margin: 10px 0px 10px 0px;
+    Width:300px;
+    padding: 10px 10px 10px 10px; 
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.box span{
+    color:red;
+    font-weight: bold;
+    font-size: larger;
+    margin: 0 20px 0 0;
+}
+.box button{
+    background-color: black;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid black;
+    font-weight: bold;
+    border-radius: 10px;
+}
